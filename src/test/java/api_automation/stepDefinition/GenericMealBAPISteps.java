@@ -32,7 +32,8 @@ public class GenericMealBAPISteps extends ReusableMethods {
 		this.flag=flag;
 		String userID=null;
 	    String password=null;
-		
+	    String password2=null;
+
 		if(flag.equalsIgnoreCase("true")){
 			
 			if(account.equalsIgnoreCase("company")){
